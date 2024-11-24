@@ -1,0 +1,142 @@
+body {
+	font-family: "DM Serif Display", serif;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;	
+}
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+}
+.logo {
+	font-size: 3em;
+}
+.menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+.menu-item {
+	display: inline-block;
+	padding: 0px 29px;
+	margin: 0px 10px;
+	line-height: 2;
+}
+.menu-link {
+	text-decoration: none;
+	font-size: 1.8em;
+	color: black;
+}
+.menu-link:hover {
+	color: white;
+	background: black;
+	transition: 0.3s;
+}
+.searcher {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 1.4em;
+	background: url(../img/free-icon-magnifier-3466268.png);
+	background-size: 18px;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+.searcher:focus {
+	border-bottom: 1px solid black;
+
+}
+.face {
+	height: calc(100vh - 6em);
+	background: url(../img/tmb_322098_482295.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.face::after {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.515);
+	position: absolute;
+}
+.face > .maska {
+	z-index: 1;
+	text-align: center;
+}
+.lob {
+	font-size: 8em;
+	color: #fff;
+}
+.brov {
+	font-size: 4em;
+	color: #fff;
+}
+.nos button {
+	width: 250px;
+	height: 80px;
+}
+.b-left {
+	background: none ;
+	color: white;
+	border: 4px solid;
+	transition: 1s;
+}
+.b-left:hover {
+	background: #f2cbde ;
+	color: black;
+	border: 4px solid;
+	transition: 1s;
+}
+.b-right {
+	background: #f2cbde;
+	color: black;
+	border: 4px solid;
+	transition: 1s;
+}
+.b-right:hover {
+	background: none;
+	color: white;
+	border: 4px solid;
+	transition: 1s;
+}
+.about {
+	padding: 50px 0;
+	text-align: center;
+}
+.about-text h3 {
+	font-size: 6em;
+	margin: 20px 0;
+}
+.about-text p {
+	font-size: 2.5em;
+	margin: auto;
+	margin: 20px 0;
+}
+.about-row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.about-col {
+	width: calc(30% - 20px);
+	padding: 10px
+	min-width: 200px;
+}
+.about-col img {
+	width: 50%;
+}
+.about-col p {
+	font-size: 1.7em;
+}
