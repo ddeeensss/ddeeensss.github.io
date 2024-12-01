@@ -3,6 +3,17 @@ body {
 	font-size: 10px;
 	margin: 0;
 	padding: 0;	
+	background: url(../img/tmb_322098_482295.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+html {
+	scroll-behavior: smooth;
+}
+.header {
+	background: pink;
 }
 .header-flex {
 	display: flex;
@@ -18,8 +29,6 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
-
 }
 .menu-item {
 	display: inline-block;
@@ -35,7 +44,7 @@ body {
 .menu-link:hover {
 	color: white;
 	background: black;
-	transition: 0.3s;
+	transition: 0.6s;
 }
 .searcher {
 	background: transparent;
@@ -43,7 +52,6 @@ body {
 	outline: none;
 	color: black;
 	font-size: 1.4em;
-	background: url(../img/free-icon-magnifier-3466268.png);
 	background-size: 18px;
 	background-repeat: no-repeat;
 	padding-left: 25px;
@@ -53,8 +61,7 @@ body {
 
 }
 .face {
-	height: calc(100vh - 6em);
-	background: url(../img/tmb_322098_482295.jpg);
+	height: calc(100vh - 5.5em);
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -113,6 +120,7 @@ body {
 .about {
 	padding: 50px 0;
 	text-align: center;
+	background: pink;
 }
 .about-text h3 {
 	font-size: 6em;
@@ -139,4 +147,83 @@ body {
 }
 .about-col p {
 	font-size: 1.7em;
+}
+.servaises {
+	padding: 30px 0;
+	background: pink;
+}
+.conteiner {
+	width: 70%;
+	margin: auto;
+}
+.servaises-title {
+	text-align: center;
+}
+.servaises-title h3 {
+	font-size: 5em;
+	color: black;
+}
+.servaises-title p {
+	font-size: 2.2em;
+	color: black;	
+}
+.shop {
+
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.col {
+	width: 30%;
+	min-height: 150px;
+	min-width: 150px;
+	margin-top: 20px;
+}
+.card {
+	text-align: center;
+	background: #cf466d;
+	padding: 15px;
+	border-radius: 20px;
+	transition: 1s;
+	box-shadow: -15px 10px darkgrey;
+}
+.card-img {
+	width: 50%;
+}
+.card-title {
+	font-size: 2em;
+}
+.card-descript {
+	font-size: 1.5em;
+}
+.card-botton {
+	width: 100%;
+	background: pink;
+	color: black;
+	font-size: 2.5em;
+	line-height: 2;
+	border-radius: 20px;
+	transition: 1s;
+}
+.card:hover {
+	transform: scale(1.1);
+	background: pink;
+}
+.card-botton:hover {
+	background: black;
+	color: pink;
+}
+.delitel {
+	height: 300px;
+}
+.topper {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	border-radius: 50%;
+	background: black;
 }

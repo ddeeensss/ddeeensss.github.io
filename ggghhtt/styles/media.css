@@ -1,6 +1,7 @@
 @media screen and (width < 420px) {
 body {
 	font-size: 3.5px;
+	background-position: center;
 }
 .menu-item {
 	padding: 0px 5px;
@@ -11,7 +12,5 @@ body {
 	padding-left: 8px;
 	display: none;
 }
-.face {
-	background-position: 50% 50%;
-}
+
 }
