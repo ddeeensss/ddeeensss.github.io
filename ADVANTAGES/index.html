@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/media.css">
+	<title>Your Daily Podcast</title>
+</head>
+<body>
+	<div class="list1">
+		<div class="header">
+
+			<div class="header-flex">
+
+				<div class="logo"> 
+					<img src="img/landing/shapka/logo.png" alt="" class="logo-img">
+				</div>
+
+				<ul class="menu">
+
+					<li class="menu-items">
+						<a href="index.html" class="menu-link">Episodes</a>
+					</li>
+
+					<li class="menu-items">
+						<a href="about.html" class="menu-link">About</a>
+					</li>
+					<li class="menu-items">
+						<button id="active" class="dropdown-btn">Menu<img src="img\landing\shapka\Arrow - Down.png" alt="" class="menu-inmg"><i class="fa-caret-down"></i>
+						  </button>
+						  <div class="dropdown-container">
+						    <a href="news.html"	class="menu-link1"> · News<br></a>
+						    <a href="artwork.html" class="menu-link1"> · Artwork</a>
+
+						  </div>
+					</li>
+
+					<div class="knopki">
+						<a href="#" class="knopka">RECENT EPISODES</a>
+						<a href="#" class="knopka1">SUBSCRIBE</a>
+					</div>
+
+				</ul>
+
+			</div>
+<script>
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+
+		for (i = 0; i < dropdown.length; i++) {
+		dropdown[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var dropdownContent = this.nextElementSibling;
+		    if (dropdownContent.style.display === "flex") {
+		dropdownContent.style.display = "none";
+		} else {
+		      dropdownContent.style.display = "flex";
+		}
+		});
+		}
+</script>
+
+		</div>
+
+			<div class="conteiner">
+
+				
+
+				<div class="daily">
+					<img src="img/landing/1landing/Group 48095792.png" alt="" class="con-img">
+					<img src="img/landing/1landing/Hero Shape Swirl.png" alt="" class="con-img1">
+					<div class="daily-z">
+						<p class="daily-z1">Your Daily</p>
+						<p class="daily-z2">Podcast</p>
+					</div>
+
+					<p class="text-deily">We cover all kinds of categories and <br> a weekly special guest.</p>
+					<a href="#" class="text-deily1">SUBSCRIBE</a>
+
+				</div>
+<img src="img\переходы\Scribble.png" alt="" class="perehod1">
+			</div>
+
+
+			<div class="cards">
+
+				<div class="card">
+					<img src="img\landing\1landing\cover(1).png " alt="" class="card-img">
+				</div>
+
+				<div class="card">
+					<img src="img\landing\1landing\cover.png" alt="" class="card-img">
+				</div>
+
+				<div class="card">
+					<img src="img\landing\1landing\cover(2).png" alt="" class="card-img">
+				</div>
+
+			</div>
+			<div class="social-line">
+				<div class="social">
+
+					<p class="social-title">Supported by:</p>
+					<div class="social-cards">
+						<div class="social-card">
+
+							<img src="img\landing\1landing\Spotify.png" alt="" class="social-img">
+
+						</div>
+
+						<div class="social-card">
+
+							<img src="img\landing\1landing\Google Podcast.png" alt="" class="social-img">
+
+						</div>
+
+						<div class="social-card">
+							<img src="img\landing\1landing\Youtube.png" alt="" class="social-img">
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+	</div>
+	<div class="container1">
+
+		<p class="talk-title">Talk. Listen. Get inspired <br>
+by every minute of it.</p>
+
+		<div class="talk-cards">
+
+			<div class="talk-card">
+
+				<img src="img\landing\about\Illustration 01.png" alt="" class="talk-img">
+				<p class="talk-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Curabitur ac ultrices odio. </p>
+
+			</div>
+
+			<div class="talk-card">
+
+				<img src="img\landing\about\Illustration 02.png" alt="" class="talk-img">
+				<p class="talk-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Curabitur ac ultrices odio. </p>
+
+			</div>
+
+		</div>
+			
+
+		<div class="conteiner2">
+			<img src="img\landing\about\Vector 4.png" alt="" class="klyksa">
+			<img src="img\landing\about\Star 4.png" alt="" class="klyksa1">
+			<p class="cover-title">“</p>
+
+			<p class="cover-text">One of the best daily podcasts that <br>
+covers every topic on Spotify.</p>
+
+			<div class="person">
+
+				<img src="img\landing\about\avatar.png" alt="" class="avatar">
+				<p class="person-name">John Smith,</p>
+				<img src="img\landing\about\Vector.png" alt="" class="person-img">
+				<p class="spotify">Social Community Manager</p>
+			</div>
+			
+		</div>
+<img src="img\переходы\Scribble (1).png" alt="" class="perehod2">
+	</div>
+
+	<div class="conteiner3">
+
+		<div class="listener-text">
+
+			
+			<p class="li-title">What our listeners say<img src="img\landing\listen\Sparkle.png" alt="" class="li-img"></p>
+			<p class="li-text">Their experience throughout every platform</p>
+
+		</div>
+
+
+		<div class="listaner-cards">
+
+			<div class="li-card">
+
+				<p class="li-card-title">“</p>
+
+				<p class="li-card-text">Lorem ipsum dolor sit amet consectet <br>piscing elit, sed do eiusmod tempor incidi<br>ut labore et dolore magna aliqua. </p>
+
+				<div class="spotify-person">
+					<img src="img\landing\listen\avatar (1).png" alt="" class="ava">
+					<p class="ava-name">Luna lovegood,</p>
+					<img src="img\landing\about\Vector.png" alt="" class="ava-img">
+					<p class="ava-tex">Spotify</p>
+				</div>
+			</div>
+
+				<div class="li-card1">
+					<p class="li-card-title">“</p>
+
+					<p class="li-card-text">Lorem ipsum dolor sit amet consectet<br>piscing elit, sed do eiusmod tempor incidi<br>ut labore et dolore magna aliqua. </p>
+
+					<div class="spotify-person">
+						<img src="img\landing\listen\avatar (2).png" alt="" class="ava">
+						<p class="ava-name">Emily Blunt,</p>
+						<img src="img\landing\listen\google podcast (1).png" alt="" class="ava-img">
+						<p class="ava-tex">Google Podcast</p>
+					</div>
+
+				</div>
+
+			
+		</div>
+		<div class="listalka1">
+			<img src="img\landing\listen\arrow.png" alt="" class="listalka">
+		</div>
+<img src="img\переходы\Scribble (1).png" alt="" class="perehod3">
+	</div>
+	
+	<div class="container4">
+		
+		<div class="benifits">
+			<p class="benifits-title">Membership benefits<img src="img\landing\ager\Scribble (2).png" alt="" class="benifits-img3"></p>
+			<p class="benifits-text">Become our sponsor and get all benefits</p>
+		</div>
+
+		<div class="benifits-cards">
+
+			<span class="ppp2"><div class="benifits-card1">
+				<img src="img\landing\ager\Scribble (3).png" alt="" class="benifits-img">
+				<p class="benifits-card-title">Topic by Request</p>
+				<p class="benifits-card-text">Lorem ipsum dolor sit amet consectet pis
+cing elit, sed do eiusmod tempor.</p>
+			</div></span>
+
+			<div class="benifits-card">
+				<img src="img\landing\ager\Shining stars.png" alt="" class="benifits-img">
+				<p class="benifits-card-title">Exclusive Content</p>
+				<p class="benifits-card-text">Lorem ipsum dolor sit amet consectet pis
+cing elit, sed do eiusmod tempor.</p>
+			</div>
+
+			<div class="benifits-card">
+				<img src="img\landing\ager\Face 1.png" alt="" class="benifits-img">
+				<p class="benifits-card-title">Join the Community</p>
+				<p class="benifits-card-text">Lorem ipsum dolor sit amet consectet pis
+cing elit, sed do eiusmod tempor.</p>
+			</div>
+
+			<div class="benifits-card1">
+				<img src="img\landing\ager\Face 5.png" alt="" class="benifits-img">
+				<p class="benifits-card-title">Livestreaming Access</p>
+				<p class="benifits-card-text">Lorem ipsum dolor sit amet consectet pis
+cing elit, sed do eiusmod tempor.</p>
+			</div>
+
+			<div class="benifits-card">
+				<img src="img\landing\ager\Fire.png" alt="" class="benifits-img">
+				<p class="benifits-card-title">Exclusive Episodes & Merch</p>
+				<p class="benifits-card-text">Lorem ipsum dolor sit amet consectet pis
+cing elit, sed do eiusmod tempor.</p>
+			</div>
+
+			<div class="benifits-card">
+				<img src="img\landing\ager\Star.png" alt="" class="benifits-img">
+				<p class="benifits-card-title">And much more!</p>
+				<p class="benifits-card-text">Lorem ipsum dolor sit amet consectet pis
+cing elit, sed do eiusmod tempor.</p>
+			</div>
+
+		</div>
+		<div class="benifits-bottom1">
+			<a href="#" class="benifits-bottom">SEE PRICING</a>
+		</div>
+<img src="img\переходы\Scribble (1).png" alt="" class="perehod4">
+	</div>
+
+	<div class="container5">
+
+		<div class="benifits1">
+			<p class="benifits-title">Recent Episodes</p>
+			<p class="benifits-text">Available on your favorite platform</p>
+		</div>
+
+		
+
+		<div class="recent-holder">
+			<!-- Card start -->
+				<div class="recent-card1">
+					<div class="recent-main">
+						<img src="img\landing\resent\cover (3).png" alt="" class="recent-img">
+						<div class="recent-text">
+							<p class="resent-nam">Eps. 6</p>
+							<p class="recent-title1">Pandemic Becoming Endemic</p>
+							<p class="recent-lorem">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Curabitur ac ultrices odio. </p>
+						</div>
+					</div>
+					<div class="prochie">
+						<div class="recent-bottom">
+							<a href="#" class="recent-bottom1">covid-19</a>
+							<a href="#" class="recent-bottom1">health</a>
+						</div>
+						<div class="recent-sosaity">
+							<p class="resent-from">Hosted by:</p>
+							<img src="img\landing\resent\host.png" alt="" class="recent-from-img">
+						</div>
+					</div>
+				</div>
+			<!-- Card-down -->
+
+			<!-- Card start -->
+				<div class="recent-card2">
+					<img src="img\landing\resent\Sparkle (1).png" alt="" class="benifits-img12">
+					<div class="recent-main1">
+						<img src="img\landing\resent\cover (5).png" alt="" class="recent-img">
+						<div class="recent-text">
+							<p class="resent-nam">Eps. 5</p>
+							<p class="recent-title">Tesla Autopilot Controversy</p>
+							<p class="recent-lorem">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Curabitur ac ultrices odio. </p>
+						</div>
+					</div>
+					<div class="prochie">
+						<div class="recent-bottom">
+							<a href="#" class="recent-bottom1">automation</a>
+							<a href="#" class="recent-bottom1">techHosted by:</a>
+						</div>
+						<div class="recent-sosaity">
+							<p class="resent-from">Hosted by:</p>
+							<img src="img\landing\resent\host.png" alt="" class="recent-from-img">
+						</div>
+					</div>
+				</div>
+			<!-- Card-down -->
+
+			<!-- Card start -->
+				<div class="recent-card">
+					<div class="recent-main">
+						<img src="img\landing\resent\cover (7).png" alt="" class="recent-img">
+						<div class="recent-text">
+							<p class="resent-nam">Eps. 4</p>
+							<p class="recent-title">Women's Rights? Is it alright?</p>
+							<p class="recent-lorem">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Curabitur ac ultrices odio.</p>
+						</div>
+					</div>
+					<div class="prochie">
+						<div class="recent-bottom">
+							<a href="#" class="recent-bottom1">women’s rights</a>
+						</div>
+						<div class="recent-sosaity">
+							<p class="resent-from">Hosted by:</p>
+							<img src="img\landing\resent\host.png" alt="" class="recent-from-img">
+						</div>
+					</div>
+				</div>
+			<!-- Card-down -->
+
+			<!-- Card start -->
+				<div class="recent-card12">
+					<div class="recent-main">
+						<img src="img\landing\resent\cover (8).png" alt="" class="recent-img">
+						<div class="recent-text">
+							<p class="resent-nam">Eps. 3</p>
+							<p class="recent-title1">How to Deal with Self–<br>Confidence</p>
+							<p class="recent-lorem">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Curabitur ac ultrices odio.</p>
+						</div>
+					</div>
+					<div class="prochie">
+						<div class="recent-bottom">
+							<a href="#" class="recent-bottom1">self-esteem</a>
+							<a href="#" class="recent-bottom1">health</a>
+						</div>
+						<div class="recent-sosaity">
+							<p class="resent-from">Hosted by:</p>
+							<img src="img\landing\resent\host.png" alt="" class="recent-from-img">
+						</div>
+					</div>
+				</div>
+			<!-- Card-down -->
+
+			<!-- Card start -->
+				<div class="recent-card1">
+					<div class="recent-main">
+						<img src="img\landing\resent\cover (9).png" alt="" class="recent-img">
+						<div class="recent-text">
+							<p class="resent-nam">Eps. 2</p>
+							<p class="recent-title1">Type of Social Classes of<br>People</p>
+							<p class="recent-lorem">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Curabitur ac ultrices odio.</p>
+						</div>
+					</div>
+					<div class="prochie">
+						<div class="recent-bottom">
+							<a href="#" class="recent-bottom1">social class</a>
+							<a href="#" class="recent-bottom1">wealth</a>
+						</div>
+						<div class="recent-sosaity">
+							<p class="resent-from">Hosted by:</p>
+							<img src="img\landing\resent\host.png" alt="" class="recent-from-img">
+						</div>
+					</div>
+				</div>
+			<!-- Card-down -->
+
+			<!-- Card start -->
+				<div class="recent-card2">
+					<div class="recent-main">
+						<img src="img\landing\resent\cover (10).png" alt="" class="recent-img">
+						<div class="recent-text">
+							<p class="resent-nam">Eps. 1</p>
+							<p class="recent-title">Are you a Perplexed Mind<br>Person?</p>
+							<p class="recent-lorem">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Curabitur ac ultrices odio.</p>
+						</div>
+					</div>
+					<div class="prochie">
+						<div class="recent-bottom">
+							<a href="#" class="recent-bottom1">mind-behaviour</a>
+							<a href="#" class="recent-bottom1">health</a>
+						</div>
+						<div class="recent-sosaity">
+							<p class="resent-from">Hosted by:</p>
+							<img src="img\landing\resent\host.png" alt="" class="recent-from-img">
+						</div>
+					</div>
+				</div>
+			<!-- Card-down -->
+			
+		</div>
+		<div class="benifits-bottom52">
+			<a href="#" class="benifits-bottom">BROWSE ALL EPISODES</a>
+		</div>
+<img src="img\переходы\Scribble (1).png" alt="" class="perehod5">
+	</div>
+	<div class="container6">
+		
+		<div class="benifits1">
+			<p class="benifits-title">Become our sponsor<img src="img\landing\sponsor\Sparkle (2).png" alt="" class="li-img"></p>
+			<p class="benifits-text">Get exclusive episodes, merch and more</p>
+		</div>
+		
+		
+
+		<div class="price">
+
+			<div class="price-card">
+				<p class="price-title">Member</p>
+				<p class="price-lorem">Lorem ipsum dolor sit amet consectet<br>cing elit, sed do eiusmod tempor.</p>
+				<div class="money">
+					<a href="#" class="price-bottom">SUBSCRIBE</a>
+					<div class="price-abstore">
+						<p class="price-money">$9.99</p>
+						<p class="price-year">/month</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="price-card2">
+				<div class="price-ti">
+					<p class="price-title">Family</p>
+					<a href="#" class="price-title-bottom">MOST POPULAR</a>
+				</div>
+				<p class="price-lorem">Lorem ipsum dolor sit amet consectet<br>cing elit, sed do eiusmod tempor.</p>
+				<div class="money">
+					<a href="#" class="price-bottom">SUBSCRIBE</a>
+					<div class="price-abstore">
+						<p class="price-money">$14.99</p>
+						<p class="price-year">/month</p>
+					</div>
+				</div>
+<img src="img\landing\sponsor\Star 4 (1).png" alt="" class="price-img2">
+			</div>
+			<div class="price-card1" style="background: white;">
+				<p class="price-title">Official</p>
+				<p class="price-lorem">Lorem ipsum dolor sit amet consectet<br>cing elit, sed do eiusmod tempor.</p>
+				<div class="money">
+					<a href="#" class="price-bottom">SUBSCRIBE</a>
+					<div class="price-abstore">
+						<p class="price-money">$29.99</p>
+						<p class="price-year">/month</p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="price-about">
+				<p class="price-ab-title">What’s included:</p>
+				<ul class="about-it">
+					<li class="about-it-spisok2">Exclusive Content</li>
+					<li class="about-it-spisok">5% Discount on Merch</li>
+					<li class="about-it-spisok">Join the Community</li>
+					<li class="about-it-spisok">Livestreaming Access</li>
+				</ul>
+			</div>
+			
+			<div class="price-about2">
+				<img src="img\landing\sponsor\Vector 4 (1).png" alt="" class="price-img3">
+				<p class="price-ab-title">What’s included:</p>
+				<ul class="about-it">
+					<li class="about-it-spisok1">Everything in Tier 1</li>
+					<li class="about-it-spisok">Free tickets to Events</li>
+					<li class="about-it-spisok">Limited Edition Merch</li>
+					<li class="about-it-spisok">Promote your Product</li>
+					<li class="about-it-spisok">Request Topic</li>
+				</ul>
+			</div>
+			<div class="price-about1">
+				<p class="price-ab-title">What’s included:</p>
+				<ul class="about-it">
+					<li class="about-it-spisok1">Everything in Tier 2</li>
+					<li class="about-it-spisok">Exclusive Badge on Livestreaming</li>
+					<li class="about-it-spisok">Become an Official Sponsor</li>
+					<li class="about-it-spisok">Early Access to All Episodes</li>
+					<li class="about-it-spisok">Free Stikers and Merch</li>
+				</ul>
+			</div>
+		</div>
+<img src="img\переходы\Scribble (1).png" alt="" class="perehod5">
+	</div>
+
+	<div class="container7">
+		<div class="benifits1">
+			<p class="benifits-title">Article and News</p>
+			<p class="benifits-text">News, tips, tricks and more</p>
+		</div>
+		
+		
+		<div class="news-holder">
+
+			<div class="news-card1">
+				
+				<img src="img\landing\article\Scribble (4).png" alt="" class="news-abs1">
+				<img src="img\landing\article\img.png" alt="" class="news-img">
+				<p class="news-what">PODCAST</p>
+				<p class="news-title1">Setup your own podcast</p>
+				<p class="news-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel<br>iam, quis nostrud exercitation ullamco laboris...</p>
+				<div class="news-app">
+					<div class="news-bottoms">
+						<a href="" class="recent-bottom1">business</a>
+						<a href="" class="recent-bottom1">startup</a>
+					</div>
+					<p class="news-date">Sep 14, 2021</p>
+				</div>
+			</div>
+
+			<div class="news-card">
+				<img src="img\landing\article\Vector.png" alt="" class="news-abs">
+				<img src="img\landing\article\img (1).png" alt="" class="news-img">
+				<p class="news-what">TIPS & TRICK</p>
+				<p class="news-title">Doodle artwork 101</p>
+				<p class="news-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel<br>iam, quis nostrud exercitation ullamco laboris...</p>
+				<div class="news-app">
+					<div class="news-bottoms">
+						<a href="" class="recent-bottom1">art</a>
+						<a href="" class="recent-bottom1">creative</a>
+						<a href="" class="recent-bottom1">tips and trick</a>
+					</div>
+					<p class="news-date">Sep 12, 2021</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="news-bottom1">
+			<a href="#" class="benifits-bottom">BROWSE ALL</a>
+		</div>
+<img src="img\переходы\Scribble.png" alt="" class="perehod5">
+	</div>
+
+	<div class="container8">
+		<img src="img\landing\app\Home.png" alt="" class="app-abs">
+		<img src="img\landing\app\play.png" alt="" class="app-abs1">
+		<img src="img\landing\app\Vector (1).png" alt="" class="app-abs2">
+		
+		<img src="img\landing\app\Sparkle.png" alt="" class="app-abs4">
+		<img src="img\landing\app\Sparkle (1).png" alt="" class="app-abs5">
+		<img src="img\landing\app\Sparkle (2).png" alt="" class="app-abs6">
+		<div class="app-text">
+			<a href="" class="app-beta">BETA</a>
+			<p class="app-title">Available now<br>Pod of Cast App</p>
+			<p class="app-text1">We just launched our podcast app!</p>
+		</div>
+
+		<div class="app-comunicate">
+			<a href="" class="benifits-bottom">DOWNLOAD NOW<img src="img\landing\app\Group (2).png" alt="" class="app-abs3"></a>
+			<p class="app-com">Content also available on:</p>
+				<div class="comunicate">
+					<img src="img\landing\app\logo (2).png" alt="" class="app-img">
+					<img src="img\landing\app\spotify (2).png" alt="" class="app-img">
+					<img src="img\landing\app\youtube (1).png" alt="" class="app-img">
+				</div>
+		</div>
+	</div>
+
+	<div class="basement">
+	<div class="glava">
+		<div class="slaid1">
+			<div class="logot">
+				<img src="img\landing\shapka\logo.png" alt="" class="logo1">
+				<p class="year-base">©2021.</p>
+			</div>
+			<p class="lorem-base">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+			<div class="soshial-base">
+				<img src="img\landing\basement\twitter.png" alt="" class="img-soshi-base">
+				<img src="img\landing\basement\instagram.png" alt="" class="img-soshi-base1">
+				<img src="img\landing\basement\tiktok.png" alt="" class="img-soshi-base1">
+			</div>
+		</div>
+
+		<div class="slide2">
+			<p class="about-base2">About</p>
+			<p class="about-base"><span class="sss">Testimonials</span></p>
+			<p class="about-base">Features</p>
+		</div>
+
+		<div class="slide3">
+			<p class="about-base2"><span class="sss">Episodes</span></p>
+			<p class="about-base">Pricing</p>
+			<p class="about-base">Blog</p>
+		</div>
+
+		<div class="glav-base">
+			<p class="listen-base">Listen to episodes on your fav platform:</p>
+			<div class="sos-g-base">
+				<img src="img\landing\basement\Google Podcast (2).png" alt="" class="sos-g-img">
+				<img src="img\landing\basement\Spotify (1).png" alt="" class="sos-g-img1">
+				<img src="img\landing\basement\Youtube (1).png" alt="" class="sos-g-img1">
+			</div>
+			<p class="app-base">App available on:</p>
+			<div class="sos-g-base1">
+				<img src="img\landing\basement\app_store.png" alt="" class="sos-g-img">
+				<img src="img\landing\basement\google_play.png" alt="" class="sos-g-img2">
+			</div>
+		</div>
+</div>
+		<div class="slade4">
+			<p class="year-slade4">©2022. All Rights Reserved. <span class="sss">Pod of Cast</span></p>
+			<div class="fff-sl">
+				<p class="ff1">Terms</p>
+				<p class="ff2">•</p>
+				<p class="ff2">Privacy</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
